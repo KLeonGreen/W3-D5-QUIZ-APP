@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+body {
+  background-image: url(./background.webp);
+  background-size: auto;
+  background-position: inherit;
+  font-family: "Comfortaa", cursive;
+  font-family: "Nunito", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  margin-inline: auto;
+  transform: translateY(40%);
+  position: relative;
+  top: 68%;
+  /* border: solid; */
+  text-align: center;
+  padding-inline: 120px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 40px;
+}
+
+div #question-content {
+  height: 140px;
+  margin-top: 65px;
+  font-size: 2em;
+}
+
+.quest {
+  height: 140px;
+  margin-block: 30px;
+  font-size: 2.2em;
+  color: #810200;
+  margin-top: 80px;
+}
+
+.other-controls {
+  position: relative;
+  top: 100px;
+}
+
+#btn-options {
+  position: relative;
+  top: 60px;
+}
+
+.button.button-option {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #f6bf63;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #f6bf63;
+}
+
+.button.button-reset {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #f28583;
+  cursor: pointer;
+}
+.button.button-next {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #f6bf63;
+  cursor: pointer;
+}
+.button.button-submit {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #85a59f;
+  cursor: pointer;
+}
+.button.button-reset:hover {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #97504e;
+  cursor: pointer;
+}
+.button.button-next:hover {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #926f32;
+  cursor: pointer;
+}
+.button.button-submit:hover {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #587872;
+  cursor: pointer;
+}
+
+#true {
+  border: solid 1px #f6bf63;
+}
