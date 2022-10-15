@@ -8,23 +8,25 @@
     <title>QUIZ APP</title>
   </head>
   <body>
-    <div class="container">
+    <div id="container" class="container">
       <div class="score">
-        <span id="user-points"></span>
-        <span></span>
-        <span id="total-points"></span>
+        <span id="user-points">0</span>
+        <span>|</span>
+        <span id="total-points">0</span>
       </div>
       <div id="display-area" class="content">
-        <div id="questions-content" class="quest"></div>
-        <div id="btn-options">
-          <!-- <button class="button button-option" id="true">True</button> -->
-          <!-- <button class="button button-option" id="false">False</button> -->
+        <div id="questions-content" class="questions-content">Question 1</div>
+        <div id="answers" class="answers">
+          <label class="option"> <input type="radio" name="option" /> <span id="option1"></span></label>
+          <label class="option"> <input type="radio" name="option" value="2" /> <span id="option2"></span></label>
+          <label class="option"> <input type="radio" name="option" value="3" /> <span id="option3"></span></label>
+          <label class="option"> <input type="radio" name="option" value="4" /> <span id="option4"></span></label>
         </div>
-        <div class="other-controls">
-          <button class="button button-reset" id="reset">Reset</button>
-          <button class="button button-next" id="next">Next</button>
-          <button class="button button-submit" id="submit">Submit</button>
+        <div>
+          <button id="next" class="nextbtn">Next</button>
         </div>
+
+        <div id="result" class="result content" style="display: none"></div>
       </div>
     </div>
 
