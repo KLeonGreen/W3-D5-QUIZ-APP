@@ -92,7 +92,7 @@ let currentQuestion = 0;
 let score = 0;
 const totalQuestions = questions.length;
 
-const quizSpace = document.getElementById("container");
+const quizSpace = document.getElementById("display-area");
 const questionTitle = document.getElementById("questions-content");
 const userScore = document.getElementById("user-points");
 const totalScore = document.getElementById("total-points");
